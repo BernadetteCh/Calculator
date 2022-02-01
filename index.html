@@ -9,41 +9,40 @@
   </head>
   <body>
     <div class="calculator">
-<div id="output"></div>
- <!-- <input type="text" id="output" />-->
-    <table>
-     
-      <tr>
-        <td><button onclick="removeCalculation()">AC</button></td>
-        <td><button onclick="display('+/-')">+/-<button</td>
-        <td><button onclick="display('%')">%<button</td>
-        <td><button onclick="display('/')">/<button</td>
-      </tr>
-      <tr>
-        <td><button onclick="display('7')">7<button</td>
-        <td><button onclick="display('8')">8<button</td>
-        <td><button  onclick="display('9')">9<button</td>
-        <td><button onclick="display('*')">x<button</td>
-      </tr>
-       <tr>
-        <td><button onclick="display('4')">4<button</td>
-        <td><button  onclick="display('5')">5<button</td>
-        <td><button  onclick="display('6')">6<button</td>
-        <td><button  onclick="display('-')">-<button</td>
-      </tr>
-       <tr>
-        <td><button   onclick="display('1')">1<button</td>
-        <td><button   onclick="display('2')">2<button</td>
-        <td><button  onclick="display('3')">3<button</td>
-        <td><button  onclick="display('+')">+<button</td>
-      </tr>
+      <div id="output"></div>
+      <!-- <input type="text" id="output" />-->
+      <table>
         <tr>
-        <td colspan="2"><button onclick="display('0')">0<button</td>
-        <td><button onclick="display('.')" class="comma"/>,<button</td>
-        <td><button onclick="solveCalculation()"/>=</td>
-      </tr>
- 
-    </table>
+          <td><button onclick="removeCalculation()">AC</button></td>
+          <td><button onclick="display('+/-')">+/-</button></td>
+          <td><button onclick="display('%')">%</button></td>
+          <td><button onclick="display('/')">/</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="display('7')">7</button></td>
+          <td><button onclick="display('8')">8</button></td>
+          <td><button onclick="display('9')">9</button></td>
+          <td><button onclick="display('*')">x</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="display('4')">4</button></td>
+          <td><button onclick="display('5')">5</button></td>
+          <td><button onclick="display('6')">6</button></td>
+          <td><button onclick="display('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="display('1')">1</button></td>
+          <td><button onclick="display('2')">2</button></td>
+          <td><button onclick="display('3')">3</button></td>
+          <td><button onclick="display('+')">+</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button onclick="display('0')">0</button></td>
+          <td><button onclick="display('.')">,</button></td>
+          <td><button onclick="solveCalculation()">=</button></td>
+        </tr>
+      </table>
+    </div>
     <script src="java.js"></script>
   </body>
 </html>

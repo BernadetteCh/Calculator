@@ -1,3 +1,10 @@
-h1{
-    color: blueviolet;
+.output{
+    border: 1px solid grey;
+    padding: 15px;
+    max-width: 30%;
+}
+#result{
+    border: 1px solid grey;
+    max-width: 30%;
+    padding: 15px;
 }

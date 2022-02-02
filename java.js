@@ -22,7 +22,7 @@ function solveCalculation() {
 }
 
 function removeCalculation() {
-  document.getElementById("output").innerHTML = "";
+  document.getElementById("output").innerHTML = "0";
 }
 
 function calculatePerc() {

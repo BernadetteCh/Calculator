@@ -24,3 +24,12 @@ function solveCalculation() {
 function removeCalculation() {
   document.getElementById("output").innerHTML = "";
 }
+
+function calculatePerc() {
+var percentage=document.getElementById("output");
+var result=percentage.innerHTML/100;
+percentage.innerHTML=result;
+
+
+}
+

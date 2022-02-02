@@ -1,5 +1,5 @@
 function display(val) {
-  document.getElementById("output").innerHTML += val;
+  var x= document.getElementById("output")+=val;//+=it allows you to add something to a variable and store the result in that variable,
 
   /* var calculation = document.getElementById("output");
    calculation.value+=val;*/
@@ -26,10 +26,10 @@ function removeCalculation() {
 }
 
 function calculatePerc() {
+ 
 var percentage=document.getElementById("output");
 var result=percentage.innerHTML/100;
 percentage.innerHTML=result;
 
 
 }
-

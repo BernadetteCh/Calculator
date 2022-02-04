@@ -8,41 +8,53 @@
     <title>Calculator App</title>
   </head>
   <body>
+  
     <div class="calculator">
-      <div id="output">0</div>
+   
+      
+     
       <!-- <input type="text" id="output" />-->
+       
       <table>
+            
         <tr>
-          <td><button onclick="removeCalculation()">AC</button></td>
-          <td><button onclick="display('+/-')">+/-</button></td>
-          <td><button onclick="calculatePerc()">%</button></td>
-          <td><button onclick="display('/')">/</button></td>
+          
+          <td colspan="4"> <div id="output">0</div></td>
+         
         </tr>
         <tr>
-          <td><button onclick="display('7')">7</button></td>
-          <td><button onclick="display('8')">8</button></td>
-          <td><button onclick="display('9')">9</button></td>
-          <td><button onclick="display('*')">x</button></td>
+          <td><button class="btn btn-grey" onclick="removeCalculation()">AC</button></td>
+          <td><button class="btn btn-grey" onclick="display('+/-')">+/-</button></td>
+          <td><button class="btn btn-grey" onclick="calculatePerc()">%</button></td>
+          <td><button class="btn btn-orange" onclick="display('/')">/</button></td>
         </tr>
         <tr>
-          <td><button onclick="display('4')">4</button></td>
-          <td><button onclick="display('5')">5</button></td>
-          <td><button onclick="display('6')">6</button></td>
-          <td><button onclick="display('-')">-</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('7')">7</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('8')">8</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('9')">9</button></td>
+          <td><button class="btn btn-orange" onclick="display('*')">x</button></td>
         </tr>
         <tr>
-          <td><button onclick="display('1')">1</button></td>
-          <td><button onclick="display('2')">2</button></td>
-          <td><button onclick="display('3')">3</button></td>
-          <td><button onclick="display('+')">+</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('4')">4</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('5')">5</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('6')">6</button></td>
+          <td><button class="btn btn-orange" onclick="display('-')">-</button></td>
         </tr>
         <tr>
-          <td colspan="2"><button onclick="display('0')">0</button></td>
-          <td><button onclick="display('.')">,</button></td>
-          <td><button onclick="solveCalculation()">=</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('1')">1</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('2')">2</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('3')">3</button></td>
+          <td><button class="btn btn-orange" onclick="display('+')">+</button></td>
         </tr>
+        <tr>
+          <td colspan="2"><button class="btn-zero btn-darkgrey" onclick="display('0')">0</button></td>
+          <td><button class="btn btn-darkgrey" onclick="display('.')">,</button></td>
+          <td><button class="btn btn-orange" onclick="solveCalculation()">=</button></td>
+        </tr>
+    
       </table>
-    </div>
+</div>
+    
     <script src="java.js"></script>
   </body>
 </html>

@@ -32,13 +32,6 @@ function calculatePerc() {
   percentage.innerHTML = result;
 }
 
-//inner.HTML vo output ist bei default 0
-//lös i a function aus jedesmal wenn i an button klicke
-//mit diesem klick übermitlle ich mit an parameter an Wert
-//dieser Wert erscheint dann im output mit dem Wert den es bei default hat
-
-//! inner.html vo output soll verschwinden sobald i an button klicke und a Parameter übermittle
-
 function removeZero() {
   var defaultvalue = document.getElementById("output").innerHTML;
   if (defaultvalue == 0) {

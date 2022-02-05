@@ -35,9 +35,26 @@ function calculateMinus() {
   var x = document.getElementById("output").innerHTML;
   if (v) {
     var y = x * "-1";
-      console.log(y);
-  
+    console.log(y);
+  }
+}
+
+//Time
+function setDate() {
+  var now = new Date();
+
+  var hours = now.getHours();
+  if (hours < 10) {
+    return `0:${hours}`;
   }
 
+  var minutes = now.getMinutes();
+  if (minutes < 10) {
+    return `0:${minutes}`;
+  }
 
+  return `${hours}:${minutes}`;
 }
+
+var date = document.getElementById("date");
+date.innerHTML = setDate();

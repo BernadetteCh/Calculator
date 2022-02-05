@@ -24,6 +24,7 @@ td {
   padding: 8px;
   font-size: 28px;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  transition: 200ms ease-in-out all;
 }
 
 .btn-zero {
@@ -58,15 +59,15 @@ td {
 .btn-darkgrey:hover {
   background-color: rgb(128, 128, 128, 0.9);
 }
-.btn-grey:hover{
- background-color: rgb(255, 255, 255, 0.8);
+.btn-grey:hover {
+  background-color: rgb(255, 255, 255, 0.8);
 }
-.btn-orange:hover{
+.btn-orange:hover {
   background-color: rgb(255, 255, 255);
   color: #f69906;
 }
-.btn-zero:hover{
-    background-color: rgb(128, 128, 128, 0.9);
+.btn-zero:hover {
+  background-color: rgb(128, 128, 128, 0.9);
 }
 
 #output {

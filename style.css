@@ -1,19 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&family=IBM+Plex+Sans+Thai+Looped:wght@400;500&family=Indie+Flower&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans:wght@300;400&family=Roboto&family=Rock+3D&family=Varela+Round&display=swap");
+
+body {
+  background-color: black;
+}
 table {
-  padding-top: 125px;
   padding-bottom: 85px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 14px;
+  padding-right: 14px;
   border-radius: 30px;
   background-color: black;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   height: 430px;
   margin: 100px auto;
+  box-shadow: 3px 2px #5e6266, 8px 5px 3px #000, -2px 5px 3px #ccd3db,
+    -4px -2px 3px #333, 4px -2px 3px #ccc;
 }
 td {
   width: 65px;
   height: 65px;
   padding: 4px 8px;
+}
+span {
+  color: white;
+}
+
+.network,
+.connection,
+.loading {
+  max-width: 20px;
+  float: right;
+}
+.loading {
+  max-width: 28px;
 }
 
 .btn {
@@ -71,6 +89,7 @@ td {
 }
 
 #output {
+  padding-top: 100px;
   text-align: right;
   font-size: 48px;
   color: white;

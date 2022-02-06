@@ -24,14 +24,32 @@ span {
   color: white;
 }
 
+.bar{
+background-color: rgb(169, 169, 169, 0.2);
+  width: 50%;
+  padding: 4px;
+  display: inline-block;
+  margin-right: 18px;
+  margin-left: 20px;
+  border-radius: 40px;
+
+}
+.frontcamera{
+  background:  linear-gradient(rgba(3, 21, 46, 0.9) 0%, hsla(215,30%,70%,0) 50%, rgba(3, 21, 46,0.9) 100%),
+  linear-gradient(to right, rgba(38, 69, 114, 0.8) 30%, rgb(0, 2, 5) 50%, rgba(38, 69, 114, 0.8) 70%);
+  padding: 6px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
 .network,
 .connection,
 .loading {
-  max-width: 20px;
+  max-width: 15px;
   float: right;
 }
 .loading {
-  max-width: 28px;
+  max-width: 20px;
 }
 
 .btn {

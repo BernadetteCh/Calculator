@@ -1,6 +1,7 @@
 function display(val) {
   removeZero();
   calculateMinus();
+
   document.getElementById("output").innerHTML += val; //+=it allows you to add something to a variable and store the result in that variable;
 }
 //i wähl erstaml des id Element aus wo derRechnung angezeigt werden soll
@@ -38,6 +39,7 @@ function calculateMinus() {
     console.log(y);
   }
 }
+
 
 //Time
 function setDate() {

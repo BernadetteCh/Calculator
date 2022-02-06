@@ -11,7 +11,8 @@ table {
   background-color: black;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   height: 430px;
-  margin: 100px auto;
+  margin: 80px auto;
+  margin-bottom: 40px;
   box-shadow: 3px 2px #5e6266, 8px 5px 3px #000, -2px 5px 3px #ccd3db,
     -4px -2px 3px #333, 4px -2px 3px #ccc;
 }
@@ -23,6 +24,16 @@ td {
 span {
   color: white;
 }
+footer{
+  color: white;
+  font-family:"IBM Plex Sans Thai Looped", sans-serif;
+  text-align: center;
+}
+footer a{
+  color: #f69906;
+  text-decoration: none;
+}
+
 
 .bar{
 background-color: rgb(169, 169, 169, 0.2);

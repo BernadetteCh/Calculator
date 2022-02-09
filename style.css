@@ -123,3 +123,13 @@ background-color: rgb(169, 169, 169, 0.2);
   font-size: 48px;
   color: white;
 }
+
+/*mobile phone device auch für ältere iphones*/
+@media (max-width: 480px) {
+
+   td {
+
+padding: 2px 2px;
+}
+
+}

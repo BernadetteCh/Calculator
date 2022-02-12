@@ -135,4 +135,10 @@ footer a {
   td{
     padding:0px;
   }
+  .btn-zero{
+    font-size: 18px;
+  }
+  .btn{
+    font-size: 18px;
+  }
 }

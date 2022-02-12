@@ -4,6 +4,7 @@ body {
   background-color: black;
 }
 table {
+  max-width: 600px;
   padding-bottom: 85px;
   padding-left: 14px;
   padding-right: 14px;
@@ -132,13 +133,13 @@ footer a {
 }
 
 @media only screen and (max-width: 480px) {
-  td{
-    padding:0px;
+  td {
+    padding: 2px 4px;
   }
-  .btn-zero{
-    font-size: 18px;
+  .btn-zero {
+    font-size: 20px;
   }
-  .btn{
-    font-size: 18px;
+  .btn {
+    font-size: 20px;
   }
 }

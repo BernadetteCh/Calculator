@@ -131,9 +131,3 @@ footer a {
   color: white;
 }
 
-/*mobile phone device */
-@media (max-width: 600px) {
-  td {
-    padding: 2px 2px;
-  }
-}

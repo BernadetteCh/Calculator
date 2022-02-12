@@ -24,30 +24,37 @@ td {
 span {
   color: white;
 }
-footer{
+footer {
   color: white;
-  font-family:"IBM Plex Sans Thai Looped", sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   text-align: center;
 }
-footer a{
+footer a {
   color: #f69906;
   text-decoration: none;
 }
 
-
-.bar{
-background-color: rgb(169, 169, 169, 0.2);
+.bar {
+  background-color: rgb(169, 169, 169, 0.2);
   width: 50%;
   padding: 4px;
   display: inline-block;
   margin-right: 18px;
   margin-left: 20px;
   border-radius: 40px;
-
 }
-.frontcamera{
-  background:  linear-gradient(rgba(3, 21, 46, 0.9) 0%, hsla(215,30%,70%,0) 50%, rgba(3, 21, 46,0.9) 100%),
-  linear-gradient(to right, rgba(38, 69, 114, 0.8) 30%, rgb(0, 2, 5) 50%, rgba(38, 69, 114, 0.8) 70%);
+.frontcamera {
+  background: linear-gradient(
+      rgba(3, 21, 46, 0.9) 0%,
+      hsla(215, 30%, 70%, 0) 50%,
+      rgba(3, 21, 46, 0.9) 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(38, 69, 114, 0.8) 30%,
+      rgb(0, 2, 5) 50%,
+      rgba(38, 69, 114, 0.8) 70%
+    );
   padding: 6px;
   display: inline-block;
   border-radius: 50%;
@@ -124,12 +131,9 @@ background-color: rgb(169, 169, 169, 0.2);
   color: white;
 }
 
-/*mobile phone device auch für ältere iphones*/
-@media (max-width: 480px) {
-
-   td {
-
-padding: 2px 2px;
-}
-
+/*mobile phone device */
+@media (max-width: 600px) {
+  td {
+    padding: 2px 2px;
+  }
 }

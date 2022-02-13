@@ -43,20 +43,25 @@ function calculateMinus() {
 
 //Time
 function setDate() {
-  var now = new Date();
+  let now = new Date();
 
-  var hours = now.getHours();
-  if (hours < 10) {
-    return `0:${hours}`;
+  let hours = now.getHours();
+  
+ if (hours < 10) {
+    hours= `0${hours}`;
+  
   }
 
-  var minutes = now.getMinutes();
-  if (minutes < 10) {
-    return `0:${minutes}`;
-  }
-
+  let minutes = now.getMinutes();
+ console.log(minutes);
+   if (minutes < 10) {
+    minutes=`0${minutes}`;}
+    
   return `${hours}:${minutes}`;
 }
+ 
+
+
 
 var date = document.getElementById("date");
 date.innerHTML = setDate();
